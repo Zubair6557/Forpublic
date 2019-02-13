@@ -1,0 +1,10 @@
+In your php.ini search for line
+
+; extension=php_openssl.dll
+
+and remove ; so it becomes:
+
+extension=php_openssl.dll
+
+Then save & restart & enjoy.
+2. copy files in your www directory

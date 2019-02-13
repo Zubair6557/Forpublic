@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Gym Trainer</title>
+    <!-- Bootstrap CSS -->    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- bootstrap theme -->
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+    <!--external css-->
+    <!-- font icon -->
+    <link href="css/elegant-icons-style.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />    
+    <!-- Custom styles -->
+	<link rel="stylesheet" href="css/fullcalendar.css">
+	<link href="css/widgets.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-responsive.css" rel="stylesheet" />
+	<link href="css/xcharts.min.css" rel=" stylesheet">	
+	<link href="css/jquery-ui-1.10.4.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- container section start -->
+    <section id="container" class="">
+        <header class="header dark-bg">
+            <div class="toggle-nav">
+                <div class="icon-reorder tooltips" data-original-title="Toggle Navigation" data-placement="bottom"><i class="icon_menu"></i></div>
+            </div>
+
+            <!--logo start-->
+            <a href="#" class="logo"><img src="img/logo3.png" height="50px" width="50px"> Gym <span class="lite">Trainer</span></a>
+            <!--logo end-->
+            
+            <div class="top-nav notification-row">                
+                <!-- notificatoin dropdown start-->
+                <ul class="nav pull-right top-menu">
+                    
+                    <!-- user login dropdown start-->
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <span class="profile-ava">
+                                <img alt="" src="img/avatar-mini2.jpg">
+                            </span>
+                            <span class="username">admin</span>
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu extended logout">
+                            <div class="log-arrow-up"></div>
+                            <li class="eborder-top">
+                                <a href="#"><i class="icon_profile"></i> My Profile</a>
+                            </li>
+                            <li class="eborder-top">
+                                <a href="#"><i class="icon_key"></i> Change Password</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="icon_key_alt"></i> Log Out</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- user login dropdown end -->
+                </ul>
+                <!-- notificatoin dropdown end-->
+            </div>
+        </header>      
+        <!--header end-->
+
+        <!--sidebar start-->
+        <aside>
+            <div id="sidebar"  class="nav-collapse ">
+                <!-- sidebar menu start-->
+                <ul class="sidebar-menu">                
+                    <li class="active">
+                        <a class="" href="index.html">
+                            <i class="fa fa-home"></i><span>Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="#">
+                            <img src="img/proteins.png" height="20px" width="20px">
+                            <span>Supplements</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="#">
+                            <img src="img/weightlifting1.png" height="20px" width="20px">
+                            <span>Equipments</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="#">
+                            <img src="img/video1.png" height="20px" width="20px">
+                            <span>Videos</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="#">
+                            <i class="fa fa-dropbox"></i>
+                            <span>Packages</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="#">
+                            <img src="img/team.png" height="20px" width="20px">
+                            <span>Members</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="#">
+                             <img src="img/credit-card.png" height="20px" width="20px">
+                            <span>Payment</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="#">
+                             <img src="img/feedback.png" height="20px" width="20px">
+                            <span>Feedback</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="#">
+                            <img src="img/exit.png" height="20px" width="20px">
+                            <span>Logout</span>
+                        </a>
+                    </li>
+                    <!-- <li class="sub-menu">
+                        <a href="javascript:;" class="">
+                            <i class="fa fa-users"></i>
+                            <span>Members</span>
+                            <span class="menu-arrow arrow_carrot-right"></span>
+                        </a>
+                        <ul class="sub">
+                            <li><a class="" href="#">Careate</a></li>
+                            <li><a class="" href="#">Manage</a></li>
+                        </ul>
+                    </li>        -->
+                </ul>
+                <!-- sidebar menu end-->
+            </div>
+        </aside>
+        <!--sidebar end-->
+
+        <!--main content start-->
+        <section id="main-content">
+            <section class="wrapper">            
+                <!--overview start-->
+        	    <div class="row">
+            		<div class="col-lg-12">
+            			<h3 class="page-header"><i class="fa fa-home"></i> Home</h3>
+                    </div>
+        	    </div>
+                <div class="row">
+               		<div class="col-lg-12 col-md-12">	
+        		      	<div class="panel panel-default">
+        			     	<div class="panel-heading">
+        				    	<h2><i class="fa fa-flag-o red"></i><strong>Dashboard</strong></h2>
+        				    </div>
+        				    <div class="panel-body">
+                                <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="row">
+                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                        <a href="" class="btn btn-sq-lg btn-warning" style="padding:50px;">
+                                        <img src="img/proteins1.png" height="80px" width="80px">
+                                        <br><br>
+                                          <b style="font-size:15px;">Supplement</b>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                        <a href="#" class="btn btn-sq-lg btn-warning" style="padding:50px;">
+                                        <img src="img/weightlifting12.png" height="80px" width="80px"><br><br>
+                                            <b style="font-size:15px;">Equipment</b>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                        <a href="#" class="btn btn-sq-lg btn-warning" style="padding:50px;">
+                                        <img src="img/video1.png" height="80px" width="80px"><br><br>
+                                            <b style="font-size:20px;">Videos</b>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                        <a href="#" class="btn btn-sq-lg btn-warning" style="padding:50px;">
+                                        <img src="img/dropbox.png" height="80px" width="80px"><br><br>
+                                            <b style="font-size:20px;">Packages</b>
+                                        </a>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div><br><br>
+                                <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="row">
+                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                        <a href="#" class="btn btn-sq-lg btn-warning" style="padding:50px;">
+                                        <img src="img/team.png" height="80px" width="80px"><br><br>
+                                            <b style="font-size:20px;">Members</b>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                        <a href="#" class="btn btn-sq-lg btn-warning" style="padding:50px;">
+                                        <img src="img/credit-card.png" height="80px" width="80px"><br><br>
+                                            <b style="font-size:20px;">Payment</b>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                        <a href="#" class="btn btn-sq-lg btn-warning" style="padding:50px;">
+                                        <img src="img/feedback.png" height="80px" width="80px"><br><br>
+                                            <b style="font-size:20px;">Feedback</b>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                        <a href="#" class="btn btn-sq-lg btn-danger" style="padding:50px;">
+                                        <img src="img/exit.png" height="80px" width="80px"><br><br>
+                                            <b style="font-size:20px;">Logout</b>
+                                        </a>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+        				    </div>
+                        </div>	
+                    </div><!--/col-->
+        	    </div>
+                <div class="breadcrumb"> 
+                    <center>
+                    <b>2017-2018 Gym Trainer Admin Pannel. Design By <a href="#">Divyang</a></b>
+                    </center>
+                </div>
+            </section>
+            <!--main content end-->
+        </section>
+        <!-- container section start -->
+    </section>
+    <!-- javascripts -->
+    <script src="js/jquery.js"></script>
+	<script src="js/jquery-ui-1.10.4.min.js"></script>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.9.2.custom.min.js"></script>
+    <!-- bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- nice scroll -->
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/jquery.nicescroll.js" type="text/javascript"></script>
+    <
+    <!--custome script for all page-->
+    <script src="js/scripts.js"></script>
+    <!-- custom script for this page-->
+    <script src="js/jquery.autosize.min.js"></script>
+	<script src="js/jquery.placeholder.min.js"></script>
+	<script src="js/jquery.slimscroll.min.js"></script>
+    
+  </body>
+</html>
